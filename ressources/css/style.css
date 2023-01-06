@@ -54,9 +54,9 @@ footer {
   #body{width: 100%;}
   #header{width: 100%;}
   #main{width: 100%;}
-  #main h1{width: 100%; font-size: 100%;}
-  #main h2{width: 100%; font-size: 100%;}
-  #main h4{width: 100%; font-size: 100%;}
+  #main h1{width: 100%; font-size: 30%;}
+  #main h2{width: 100%; font-size: 30%;}
+  #main h4{width: 100%; font-size: 30%;}
   #a {width: 100%;}
   
 }
