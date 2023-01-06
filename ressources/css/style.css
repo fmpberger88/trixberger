@@ -22,17 +22,17 @@ a {
   font-size: clamp(0.5rem, 2vw, 1.75rem);
 }
 
-main h2 {
+h2 {
   font-weight: 700;
   font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
-main h1 {
+h1 {
   font-weight: 700;
   font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
-main h4 {
+h4 {
   font-weight: 700;
   font-size: clamp(1rem, 2.5vw, 2rem);
 }
