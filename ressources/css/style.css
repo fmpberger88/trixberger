@@ -21,17 +21,17 @@ nav {
 
 header h2 {
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: calc(18px + (24 - 18) * (100vw - 400px) / (800 - 400));
 }
 
 header h1 {
   font-weight: 700;
-  font-size: 2.5em;
+  font-size: calc(18px + (24 - 18) * (100vw - 400px) / (800 - 400));
 }
 
 header h4 {
   font-weight: 700;
-  font-size: 1.4em;
+  font-size: calc(18px + (24 - 18) * (100vw - 400px) / (800 - 400));
 }
 
 footer {
@@ -54,9 +54,9 @@ footer {
   #body{width: 100%;}
   #header{width: 100%;}
   #main{width: 100%;}
-  #main h1{width: 100%; font-size: 30%;}
+  /*#main h1{width: 100%; font-size: 30%;}
   #main h2{width: 100%; font-size: 30%;}
-  #main h4{width: 100%; font-size: 30%;}
+  #main h4{width: 100%; font-size: 30%;}*/
   #a {width: 100%;}
   
 }
