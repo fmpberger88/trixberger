@@ -16,22 +16,25 @@ header {
 
 nav {
   padding-bottom: 35%;
-
 }
 
-header h2 {
-  font-weight: 700;
-  font-size: calc(18px + (24 - 18) * (100vw - 400px) / (800 - 400));
+a {
+  font-size: clamp(0.5rem, 2vw, 1.75rem);
 }
 
-header h1 {
+main h2 {
   font-weight: 700;
-  font-size: calc(18px + (24 - 18) * (100vw - 400px) / (800 - 400));
+  font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
-header h4 {
+main h1 {
   font-weight: 700;
-  font-size: calc(18px + (24 - 18) * (100vw - 400px) / (800 - 400));
+  font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
 footer {
@@ -53,7 +56,6 @@ footer {
 @media only screen and (max-width: 480px) {
   #body{width: 100%;}
   #header{width: 100%;}
-  #main{width: 100%;}
   /*#main h1{width: 100%; font-size: 30%;}
   #main h2{width: 100%; font-size: 30%;}
   #main h4{width: 100%; font-size: 30%;}*/
