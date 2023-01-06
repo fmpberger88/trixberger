@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+body {
+  height: calc(var(--vh, 1vh) * 100);
+}
+
 header {
   background-image: url('../../ressources/css/koepfe.jpg');
   background-size: cover;
@@ -19,7 +23,7 @@ nav {
 }
 
 a {
-  font-size: clamp(0.5rem, 2vw, 1.75rem);
+  font-size: clamp(0.4rem, 2vw, 1.75rem);
 }
 
 h2 {
