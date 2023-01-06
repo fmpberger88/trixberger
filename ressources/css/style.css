@@ -51,7 +51,7 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
-  .header{width: 100%;}
-  .header a {width: 100%;}
+  #header{width: 100%;}
+  #a {width: 100%;}
   
 }
