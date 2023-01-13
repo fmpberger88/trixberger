@@ -73,6 +73,11 @@ footer {
   font-size: 1.5em;
 }
 
+.biographie {
+    position: relative;
+    float: left;
+}
+
 @media only screen and (max-width: 480px) {
   #body{width: 100%;}
   #header{width: 100%;}
