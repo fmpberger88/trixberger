@@ -11,6 +11,10 @@ body {
   bottom: 0;
 }
 
+.imgtrix {
+    float: right;
+}
+
 header {
   background-image: url('../../ressources/css/koepfe.jpg');
   background-size: cover;
