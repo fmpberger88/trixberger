@@ -11,14 +11,37 @@ header {
     margin-top: 50px;
 }
 
-a {
+header .row {
+    display: flex;
+    align-items: center;
+}
+
+ #bytrix {
+    margin: 0;
+    fonnt-weight: 700;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .navi {
   font-size: clamp(0.5rem, 2vw, 3rem);
   padding: clamp(0.7rem, 3vw, 2rem);
   color: black;
+  margin: 0;
 }
 
 a:hover {
   color: gray;
+}
+
+.jumbotron {
+    margin-top: 0;
 }
 
 h2 {
@@ -27,7 +50,7 @@ h2 {
   margin-top: 150px;
 }
 
-h1 {
+main h1 {
   font-weight: 700;
   font-size: clamp(0.7rem, 2.75vw, 3.5rem);
 }

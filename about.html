@@ -4,35 +4,34 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Trix Berger</title>
-        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="./ressources/css/style.css" type="text/css">
         <meta name="author" content="Fabian Berger">
     </head>
     <body class = "body_about">
-        <header class="container-sm" role="navigation">
-            <nav class="btn-group btn-group-toggle" data-toggle="buttons">
-                <a href="./index.html" class="container-sm p-3 mb-2 bg-dark text-white" role="link">Main</a>
-                <a href="./malerei.html"class="container-sm p-3 mb-2 bg-dark text-white" role="link">Malerei</a>
-                <a href="./keramik.html" class="contianer-sm p-3 mb-2 bg-dark text-white" role="link">Keramik</a>
-                <a href="./stoffe.html" class="container-sm p-3 mb-2 bg-dark text-white" role="link">Stoffe</a>
-            </nav>
+        <header class="container" role="navigation">
+            <div class="row">
+                <h1 class="col-sm-3"><a id = "bytrix" href="./index.html" role="link">Art by Trix</a></h1>
+                <nav class="col-sm-8 text-right">
+                    <a class = "navi" href="./malerei.html" role="link">Malerei</a>
+                    <a class = "navi" href="./keramik.html" role="link">Keramik</a>
+                    <a class = "navi" href="./stoffe.html" role="link">Stoffe</a>
+                    <a class = "navi" href="./about.html" role="link">About</a>
+                </nav>
+            </div>
         </header>
         <main class ="about_main">
             <div class = "jumbotron">
-                <div class = "row">
-                    <div class = "col-sm-6">
-                        <p>Trix Berger wurde 1932 in Luzern geboren, als Künstlerin tätig ab 1972.
+                <div class="media">
+                    <img class="align-self-start mr-3" src="./ressources/images/imagescms-image-007575809.jpg" alt="Generic placeholder image">
+                    <div class="media-body">
+                    <h5 class="mt-0">Die Künstlerin</h5>
+                    <p>Trix Berger wurde 1932 in Luzern geboren, als Künstlerin tätig ab 1972.
                         Vielflätige Arbeiten in Ton, Papier, Fotografie in Zusammenhang mit Farbe und Bewegung.
                         Tierdarstellungen nehmen in ihrem Werk einen zentralen Platz ein. Monochrom dekorative Elemente werden mit figurativen Darstellungen kombiniert, oft repetitiv als Muster.
                         In der Seidenmalerei entwickelt Trix Berger faszinierende, innovative Techniken für Farbverläufe und im Druck.</p>
-                    </div>
-                    <div class = "col-sm-6">
-                        <figure class = "imgtrix">
-                            <img src="./ressources/images/imagescms-image-007575809.jpg" alt="Trix Berger" height="400px" width="auto">
-                        </figure>
-                    </div>
-                </div>
+                    <h5> Rezensionen</h5>
             <section>
                 <p>zentralplus</p>
                 <a href="https://www.zentralplus.ch/kultur/trix-berger-eine-kuenstlerin-in-allen-belangen-829567/" target="_blank">Trix Berger - Eine Künstlerin in allen Belangen</a>
@@ -45,12 +44,23 @@
                 <p>malpeso.info</p>
                 <a href="https://malpeso.info/Trix-Berger" target="_blank">trix's monograph</a>
             </section>
-
-
-
-
+                </div>
+           </div>
+          </div>
+         </main>
+                <!-- Row with nav component -->
+            <div class="row">
+                <div class="col">
+                    <nav class="nav justify-content-center">
+                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#">Subscribe</a>
+                    </nav>
+                </div>
             </div>
-
-        </main>
+      <!-- End of row with nav component -->
+        <footer>
+            <h6 class="sm" role="doc-footnote">&copy; Copyright. All Rights Reserved.</h6>
+        </footer>
     </body>
 </html>
