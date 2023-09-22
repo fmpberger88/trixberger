@@ -1,5 +1,5 @@
 * {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-align: center;
     box-sizing: border-box;
@@ -16,12 +16,11 @@ header .row {
     align-items: center;
 }
 
- #bytrix {
+#bytrix {
     margin: 0;
-    fonnt-weight: 700;
+    font-weight: 700;
     text-align: left;
     color: black;
-    font-weight: bold;
 }
 
 header nav {
@@ -30,14 +29,14 @@ header nav {
 }
 
 header .navi {
-  font-size: clamp(0.5rem, 2vw, 3rem);
-  padding: clamp(0.7rem, 3vw, 2rem);
-  color: black;
-  margin: 0;
+    font-size: clamp(0.5rem, 2vw, 3rem);
+    padding: clamp(0.7rem, 3vw, 2rem);
+    color: black;
+    margin: 0;
 }
 
 a:hover {
-  color: gray;
+    color: gray;
 }
 
 .jumbotron {
@@ -45,44 +44,44 @@ a:hover {
 }
 
 h2 {
-  font-weight: 700;
-  font-size: clamp(0.75rem, 1.5vw, 1.5rem);
-  margin-top: 150px;
+    font-weight: 700;
+    font-size: clamp(0.75rem, 1.5vw, 1.5rem);
+    margin-top: 150px;
 }
 
 main h1 {
-  font-weight: 700;
-  font-size: clamp(0.7rem, 2.75vw, 3.5rem);
+    font-weight: 700;
+    font-size: clamp(0.7rem, 2.75vw, 3.5rem);
 }
 
 h4 {
-  font-weight: 700;
-  font-size: clamp(0.7rem, 1.25vw, 1.25rem);
-  margin-bottom: 150px;
+    font-weight: 700;
+    font-size: clamp(0.7rem, 1.25vw, 1.25rem);
+    margin-bottom: 150px;
 }
 
 #carouselExampleControls {
-  height: 100%;
-  width: 70%;
-  align-items: center;
-  margin-left: 15%;
-  margin-right: 15%;
+    height: 100%;
+    width: 70%;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 footer {
-  padding-top: 0%;
-  padding-bottom: 1%;
-  border: 1%;
-  margin: 0.03%;
+    padding-top: 0%;
+    padding-bottom: 1%;
+    border: 1%;
+    margin: 0.03%;
 }
 
 .col {
     padding: 50px;
-  }
+}
 
 .malerei {
-  font-weight: 700;
-  font-size: 1.5em;
+    font-weight: 700;
+    font-size: 1.5em;
 }
 
 .biographie {
@@ -90,12 +89,23 @@ footer {
     float: left;
 }
 
+.contact-link {
+    font-weight: bold;
+    font-size: 28px;
+    color: darkred;
+    border: darkred;
+}
+
 @media only screen and (max-width: 480px) {
-  #body{width: 100%;}
-  #header{width: 100%;}
-  /*#main h1{width: 100%; font-size: 30%;}
-  #main h2{width: 100%; font-size: 30%;}
-  #main h4{width: 100%; font-size: 30%;}*/
-  #a {width: 100%;}
-  
+    #body {
+        width: 100%;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    #a {
+        width: 100%;
+    }
 }
