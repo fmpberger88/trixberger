@@ -35,6 +35,7 @@ header .navi {
     padding: clamp(0.7rem, 3vw, 2rem);
     color: black;
     margin: 0;
+    text-decoration: none;
 }
 
 a:hover {
@@ -87,9 +88,51 @@ footer {
     font-size: 1.5em;
 }
 
-.biographie {
-    position: relative;
-    float: left;
+.artist-row {
+    align-items: center; /* Vertically center the content */
+}
+
+.artist-image {
+    display: block;
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.artist-content {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.reviews {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.review-title {
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.review-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.review-list li {
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+
+.review-list a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.review-list a:hover {
+    color: #0056b3;
 }
 
 /* Style for the "Contact Us" link */
@@ -119,5 +162,12 @@ footer {
         font-size: 2rem; /* Adjust font size for smaller screens */
     }
 
-    /* Add more responsive styling as needed */
+    .artist-content {
+        padding-top: 20px;   /* Fügt etwas Abstand zwischen Bild und Text hinzu */
+        text-align: center;  /* Zentriert den Text */
+    }
+
+    .reviews {
+        margin-top: 20px;
+    }
 }
