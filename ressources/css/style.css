@@ -41,7 +41,7 @@ header nav {
 }
 
 header .navi {
-    font-size: clamp(1rem, 2vw, 3rem);
+    font-size: clamp(1.25rem, 2vw, 3rem);
     padding: clamp(0.7rem, 3vw, 2rem);
     color: black;
     margin: 0;
@@ -61,7 +61,7 @@ a:hover {
 /* Main content styles */
 h2 {
     font-weight: 700;
-    font-size: clamp(0.75rem, 1.5vw, 1.5rem);
+    font-size: clamp(1.25rem, 1.5vw, 1.5rem);
     margin-top: 150px;
 }
 
@@ -99,39 +99,31 @@ footer {
     font-size: 1.5em;
 }
 
-.artist-row {
-    align-items: center; /* Vertically center the content */
-}
 
 /* Fotopräsentation */
 .artist-image {
-    padding-top: 70px;
+    padding-top: 100px;
     image-rendering: optimizeSpeed;
-    transition: transform 0.3s; /* Animation bei Hover hinzufügen */
 }
+
 
 /* Textformatierung */
 .artist-description {
     line-height: 1.7; /* Zeilenabstand erhöhen */
     font-size: 18px; /* Schriftgröße etwas erhöhen */
     color: #333; /* Dunklerer Text */
+    text-align: center;
 }
 
-.artist-content {
-    text-align: left;
-    padding-left: 20px;
-}
+
 
 .review-title {
-    font-size: 1.4em;
-    font-weight: 500;
     margin-bottom: 20px;
 }
 
 .review-list li {
     padding: 10px; /* Ein bisschen Polsterung */
     margin-bottom: 10px; /* Abstand zwischen den Einträgen */
-    border-radius: 8px; /* Abgerundete Ecken */
     list-style-type: none;
 }
 
@@ -153,6 +145,10 @@ footer {
     text-decoration: none; /* Remove underline from the link */
 }
 
+.form-box {
+    padding-bottom: 25px;
+}
+
 
 /* Responsive styles for screens with a maximum width of 480px */
 @media only screen and (max-width: 480px) {
@@ -166,15 +162,20 @@ footer {
     }
 
     header .navi {
-        font-size: 2rem; /* Adjust font size for smaller screens */
+        font-size: 1rem; /* Adjust font size for smaller screens */
     }
 
     .artist-content {
-        padding-top: 20px;   /* Fügt etwas Abstand zwischen Bild und Text hinzu */
+        padding-top: 5px;   /* Fügt etwas Abstand zwischen Bild und Text hinzu */
         text-align: center;  /* Zentriert den Text */
     }
 
-    .reviews {
-        margin-top: 20px;
+    body img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .carousel {
+        margin-top: 10px;
     }
 }
