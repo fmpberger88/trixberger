@@ -8,6 +8,10 @@
     margin: 0;
 }
 
+body img:hover {
+    transform: scale(1.05); /* Vergrößern beim Darüberfahren */
+}
+
 /* Header styles */
 header {
     margin-top: 50px;
@@ -28,6 +32,7 @@ header .row {
 
 #bytrix:hover {
     text-decoration: underline;
+    color: red;
 }
 
 header nav {
@@ -105,10 +110,6 @@ footer {
     transition: transform 0.3s; /* Animation bei Hover hinzufügen */
 }
 
-.artist-image:hover {
-    transform: scale(1.05); /* Vergrößern beim Darüberfahren */
-}
-
 /* Textformatierung */
 .artist-description {
     line-height: 1.7; /* Zeilenabstand erhöhen */
@@ -137,10 +138,6 @@ footer {
 .review-list a {
     color: black; /* Akzentfarbe für Links */
     font-weight: bold; /* Fetten Text für Links */
-}
-
-.review-list li:hover {
-    background-color: lightpink; /* Hover-Effekt für die Karten */
 }
 
 .review-list a:hover {
