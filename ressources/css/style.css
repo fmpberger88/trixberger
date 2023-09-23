@@ -10,6 +10,7 @@
 
 body img:hover {
     transform: scale(1.05); /* Vergrößern beim Darüberfahren */
+    image-rendering: optimizeSpeed;
 }
 
 /* Header styles */
@@ -103,7 +104,6 @@ footer {
 /* Fotopräsentation */
 .artist-image {
     padding-top: 100px;
-    image-rendering: optimizeSpeed;
 }
 
 
