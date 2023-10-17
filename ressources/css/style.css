@@ -13,6 +13,13 @@ body img:hover {
     image-rendering: optimizeSpeed;
 }
 
+.img-custom {
+    height: 400px;
+    width: 400px;
+    object-fit: scale-down;
+}
+
+
 /* Header styles */
 header {
     margin-top: 50px;
@@ -177,5 +184,10 @@ footer {
 
     .carousel {
         margin-top: 10px;
+    }
+    .img-custom {
+        height: 250px;
+        width: 250px;
+        object-fit: scale-down;
     }
 }
