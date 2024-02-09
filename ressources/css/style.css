@@ -70,7 +70,7 @@ a:hover {
 h2 {
     font-weight: 700;
     font-size: clamp(1.25rem, 1.5vw, 1.5rem);
-    margin-top: 150px;
+    margin-top: 40px;
 }
 
 main h1 {
@@ -110,28 +110,32 @@ footer {
 
 /* Fotopräsentation */
 .artist-image {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
-
+.section-title-description {
+    text-align: left;
+}
 /* Textformatierung */
 .artist-description {
     line-height: 1.7; /* Zeilenabstand erhöhen */
     font-size: 18px; /* Schriftgröße etwas erhöhen */
     color: #333; /* Dunklerer Text */
-    text-align: center;
+    text-align: left;
 }
 
 
 
 .review-title {
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .review-list li {
     padding: 10px; /* Ein bisschen Polsterung */
     margin-bottom: 10px; /* Abstand zwischen den Einträgen */
     list-style-type: none;
+    text-align: left;
 }
 
 .review-list a {
@@ -174,7 +178,7 @@ footer {
 
     .artist-content {
         padding-top: 5px;   /* Fügt etwas Abstand zwischen Bild und Text hinzu */
-        text-align: center;  /* Zentriert den Text */
+        text-align: left;  /* Zentriert den Text */
     }
 
     body img{
